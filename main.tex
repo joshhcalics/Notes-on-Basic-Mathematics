@@ -1,0 +1,105 @@
+\documentclass{amsbook}
+
+\begin{document}
+
+\title{Notes on Basic Mathematics}
+\author{Josh H}
+\maketitle
+
+\chapter{The integers}
+\section{Rules for addition}
+	We assume proficiency with the addition operator.
+	There exists a 
+
+\chapter{Properties}
+\section{Multiplication; Associative}
+	The associative property.
+
+	\begin{align*}
+		a(bc) 	&= (ab)c		\\
+				&= abc			\\
+				&= (a)(b)(c)	\\
+				&\hspace{5pt} \vdots
+	\end{align*}
+
+	Assume \textit{d} can be expanded to \textit{bc}.
+
+	\begin{align*}
+		a(d)&= ad			\\
+			&= a(bc) = abc
+	\end{align*}
+
+	Expressions within parentheses or have binding with an exponent are to be
+	evaluated before the distributions are applied.
+
+	\begin{align*}
+		a(b + c)^2 	&= 		a(b^2 + 2bc + c^2)			\\
+					&\ne	(ab + ac)^2					\\
+					&\ne	a(b^2 + c^2) = ab^2 + ac^2	
+	\end{align*}
+
+	Expansions mixed with distributions can be syntactically difficult.
+
+	\begin{flalign*}
+		a(b^2 - c^2)&= 		a(b - c)(b + c)		& \text{is equivalent to,}			\\
+					&= 		a((b - c)(b + c))	& \text{but not to be confused with,}	\\
+					&\ne	a(b - c) * a(b + c)	\\
+	\end{flalign*}
+	
+
+\chapter{Inequalities}
+	The LHS has a relation to the RHS; it is either greater than, less than,
+	greater than or equal, or less than or equal to.
+
+	\begin{align*}
+		5	&< 		10	\\
+		10	&>		5	\\
+		-13	&\leq	3	\\
+		3	&\geq	3
+	\end{align*}
+
+	This is an example of an inequality.
+
+	\begin{align*}
+		x + 1 	&< 5		\\
+		x		&< 5 - 1	\\
+		x		&< 4
+	\end{align*}
+
+	Another.
+
+	\begin{flalign*}
+		x^2 - 6x &\geq 0	& \text{factor expression,}	\\
+		x(x - 6) &\geq 0	& \text{observe when zero,}	\\
+		x = 0, \quad &x = 6
+	\end{flalign*}
+
+	We have found the endpoints on the number line.
+	Now we select a number between the intervals separated by the endpoints.
+	These numbers are picked arbitrarily.
+	Here, the chosen numbers \textit{z} must follow the rule.
+
+	\begin{align*}
+		\text{endpoints}&
+		\begin{cases}
+			0 \\ 6
+		\end{cases}	\\
+		\text{intervals}&
+		\begin{cases}
+			-1& \text{$-\infty < z < 0$}	\\
+			1&	\text{$0 < z < 6$}			\\
+			7&	\text{$6 < z < \infty$}
+		\end{cases}
+	\end{align*}
+
+	We then substitute those numbers in each factor to determine the sign
+	of the expression.
+	If the sign of the LHS is correct in relation to the type of inequality
+	then that interval is valid.
+	Since this inequality also determines if the LHS is equal to 0 then
+	we check the endpoints as well.
+
+	\begin{equation*}
+		(-\infty, 0] \cup [6, \infty)
+	\end{equation*}
+\end{document}
