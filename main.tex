@@ -18,20 +18,17 @@
 
 	The formula for the addition of negative numbers is as follows,
 	\begin{equation} \label{eq:adding_negatives}
-	\begin{split}
-		a + (-a) 	&= a + -(a) \\
-					&= a - a
-	\end{split}
+		a + (-a) = 0 \quad\quad \text{and also} \quad\quad -a + a = 0.
 	\end{equation}
 
-	The statement
-	\begin{equation} \label{eq:additive_inverse}
-		a + (-a) = 0
+	\begin{equation}
+		\text{If} \quad a + b = 0, \quad \text{then} \quad b = -a \quad \text{and} \quad
+		a = -b.
 	\end{equation}
-	shows $-a$ is the additive inverse of $a$.
 	
-	The equations above demonstrate the notion of equality and that of
-	introducing proofs.
+	\begin{equation}
+		a = -(-a).
+	\end{equation}
 	
 \chapter{Properties}
 \section{Multiplication; Associative}
@@ -124,4 +121,54 @@
 	\begin{equation*}
 		(-\infty, 0] \cup [6, \infty)
 	\end{equation*}
+
+\chapter{Polynomials}
+\section{The constant function}
+\section{The linear function}
+\section{The quadratic function}
+
+\section{The polynomial function}
+\subsection{Characteristics}
+	\begin{itemize}
+		\item $a_n, a_{n-1}, a_{n-2}, \ldots, a_0$ are the coefficients.
+		\item $a_0$ is the constant coefficient or constant term.
+		\item $a_n$ is the leading coefficient.
+		\item $a_nx^n$ is the leading term.
+	\end{itemize}
+
+	The behavior of polynomials is based on the leading term's sign and degree.
+
+\subsection{End behavior}
+	Graphs of polynomial functions are continuous.
+	That is, the graphs have no breaks or holes.
+	Additionally, the graphs have no cusps or corners; the graphs are smooth.
+
+	Let P be a polynomial of degree $n$.
+	\begin{center}
+	\begin{tabular}{llll}
+		\multicolumn{2}{c}{$n$ is odd} & \multicolumn{2}{c}{$n$ is even} \\ \hline
+		$a_n$ is positive & $a_n$ is negative & $a_n$ is positive & $a_n$ is negative \\ \hline
+
+		$P(x) \rightarrow \infty$ 	& $P(x) \rightarrow -\infty$
+		& $P(x) \rightarrow \infty$	& $P(x) \rightarrow -\infty$ \\
+		$x \rightarrow \infty$		& $x \rightarrow \infty$
+		& $x \rightarrow \infty$	& $x \rightarrow \infty$ \\ \hline
+
+		$P(x) \rightarrow -\infty$	& $P(x) \rightarrow \infty$
+		& $P(x) \rightarrow \infty$	& $P(x) \rightarrow -\infty$ \\
+		$x \rightarrow -\infty$		& $x \rightarrow -\infty$
+		& $x \rightarrow -\infty$	& $x \rightarrow -\infty$
+	\end{tabular}
+	\end{center}
+
+\subsection{Multiplicity}
+	The multiplicity of a zero $c$ determines the shape of the graph of $P$ near $c$.
+	\begin{equation*}
+		P(x) = x^3(x-2)^2
+	\end{equation*}
+	Here, $c = 0$ or $c = 2$.
+	The multiplicities of $0$ and $2$ are $3$ and $2$, respectively.
+	All we are doing is looking at the exponents.
+	When the multiplicity of $c$ is even the graph touches the x axis.
+	When the multiplicity of $c$ is odd the graph crosses the x axis.
 \end{document}
